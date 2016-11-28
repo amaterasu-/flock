@@ -1,7 +1,7 @@
 AC_INIT([flock],
-	[0.2.3],
-	[joseph@josephholsten.com],,
-	[https://github.com/josephholsten/flock])
+	[0.2.4],
+	[adrianc@sarcio.org],,
+	[https://github.com/amaterasu-/flock])
 
 AC_PREREQ([2.69])
 
