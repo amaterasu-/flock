@@ -14,13 +14,13 @@ To exclusively lock `/tmp/my.lock` while running the utility
 
 Mac OS X Homebrew:
 
-    brew tap discoteq/discoteq
+    brew tap amaterasu-/amaterasu-
     brew install flock
 
 From source:
 
-    FLOCK_VERSION=0.2.4
-    wget https://github.com/discoteq/flock/releases/download/v${FLOCK_VERSION}/flock-${FLOCK_VERSION}.tar.xz
+    FLOCK_VERSION=0.2.5
+    wget https://github.com/amaterasu-/flock/releases/download/v${FLOCK_VERSION}/flock-${FLOCK_VERSION}.tar.xz
     xz -dc flock-${FLOCK_VERSION}.tar.xz | tar -x
     cd flock-${FLOCK_VERSION}
     ./configure
